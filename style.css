@@ -1,0 +1,26 @@
+img {
+  width: 200px; 
+  height: 200px;
+  border: thin white 6px;
+}
+
+body {
+background-color: rgb(24, 24, 136);
+width: 960px;
+overflow: hidden;
+border: rgb(186, 186, 226) dashed 3px;
+margin: auto;
+}
+
+main {
+  background-color: rgba(24, 24, 136, 50%);
+  font-family: 'Roboto', sans-serif;
+  background-color: whitesmoke; 
+}
+
+h1 {
+  color: rgb(156, 165, 250);
+  font-size: 40px;
+  margin: 30px;
+}
+
