@@ -1,26 +1,33 @@
 img {
-  width: 200px; 
-  height: 200px;
-  border: thin white 6px;
+  width: 150px; 
+  height: 150px;
+  border: rgba(74, 181, 181, 0.988) solid 6px;
+  border-style: outset;
+  display: flex;
+  justify-content: space-around;
 }
 
 body {
-background-color: rgb(24, 24, 136);
-width: 960px;
-overflow: hidden;
-border: rgb(186, 186, 226) dashed 3px;
-margin: auto;
+  box-sizing: border-box;
+  background-color: rgb(51, 123, 123);
+  border: rgba(26, 65, 65, 0.988) solid 2px;
+  /* margin: auto; */
 }
 
 main {
-  background-color: rgba(24, 24, 136, 50%);
+  background-color: rgba(99, 222, 222, 0.207);
   font-family: 'Roboto', sans-serif;
-  background-color: whitesmoke; 
 }
 
 h1 {
-  color: rgb(156, 165, 250);
+  color: rgba(230, 255, 255, 0.5);
+  text-shadow: turquoise solid 2px;
   font-size: 40px;
-  margin: 30px;
 }
 
+canvas {
+  height: 250px;
+  width: 250px;
+  background-color: rgba(230, 255, 255, 0.5);
+  border: slategray double 6px;
+}
